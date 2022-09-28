@@ -4,7 +4,7 @@ import heroim from './images/heroim.jpg'
 
 function hero() {
   return (
-    <div>
+    <div className='hero'>
       <img src={heroim}  className="hero-image" alt=""/>
     </div>
   )

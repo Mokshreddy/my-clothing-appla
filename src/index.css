@@ -19,8 +19,14 @@ body {
 section {
   padding: 20px;
 }
+.hero{
+ background: burlywood;
+}
 .hero-image{
   height: 100%;
+  
+  max-width: 100%;
+  padding: 20px 50px;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
@@ -152,7 +158,7 @@ section {
  .navbar ul {
   padding: 0;
   margin: 0;
-  list-style: none;
+  list-style:none;
   display: flex;
   gap: 4rem;
   padding: 0 5rem;
