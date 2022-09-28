@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar"
 import Body from "./components/Body"
 
 import products from "./products"
-import Fake from "./components/Fake"
+// import Fake from "./components/Fake"
 
 import Hero from "./components/Hero"
 console.log(products)
@@ -31,7 +31,7 @@ export default function App() {
             <section className="items-list">
             {items}
             </section>
-            <Fake />
+          
             
         </div>
     )
