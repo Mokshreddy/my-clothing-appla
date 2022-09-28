@@ -4,9 +4,10 @@ import Navbar from "./components/Navbar"
 import Body from "./components/Body"
 
 import products from "./products"
-// import Fake from "./components/Fake"
+
 
 import Hero from "./components/Hero"
+import BodyHeader from "./components/BodyHeader"
 console.log(products)
  
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
             <Navbar />
             
             <Hero/>
+            <BodyHeader/>
            
             <section className="items-list">
             {items}

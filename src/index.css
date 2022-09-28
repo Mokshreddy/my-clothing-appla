@@ -26,6 +26,46 @@ section {
 	position: relative;
 
 }
+.dropdown-background{
+  position: absolute;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  
+  padding-top: 2rem;
+  padding-left: 25rem;
+
+}
+.title{
+  margin : 0 auto 80px;
+  position : relative;
+  line-height: 60px;
+  color : #555;
+  padding-right: 10rem;
+}
+.title::after{
+  content: "";
+  background: burlywood;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom:0%;
+  left:15%;
+}
+.dropdown{
+   position: relative;
+   background-color:burlywood;
+   display: block;
+   width: 15em;
+   height: 2em;
+   line-height: 3;
+   border-radius: .25em;
+   margin-bottom: 14%;
+   
+  
+
+}
 
 .items-list {
   
@@ -36,6 +76,7 @@ section {
   align-items: stretch;
   padding-left: 15rem;
   padding-right: 10rem;
+  padding-top: 10rem;
   
 }
 .card {
@@ -93,9 +134,9 @@ section {
 
 
 .navbar{
-  background-color: black;
+  background-color: burlywood;
   
-  color: white;
+  color: #555;
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -106,6 +147,7 @@ section {
 
 .site-title {
   font-size: 2rem;
+  
 }
  .navbar ul {
   padding: 0;
