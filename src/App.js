@@ -1,13 +1,10 @@
 import React from "react"
 import Navbar from "./components/Navbar"
-
 import Body from "./components/Body"
-
 import products from "./products"
-
-
 import Hero from "./components/Hero"
 import BodyHeader from "./components/BodyHeader"
+
 console.log(products)
  
 export default function App() {
@@ -33,6 +30,8 @@ export default function App() {
             <section className="items-list">
             {items}
             </section>
+
+          
           
             
         </div>
