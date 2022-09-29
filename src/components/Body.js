@@ -3,9 +3,9 @@ import React from "react"
 
 export default function Card(props) {
    let badgeText
-   if (props.isSale === true) {
+   if (props.isSale ) {
        badgeText = "SALE"
-   } else if (props.isExclusive === true) {
+   } else if (props.isExclusive ) {
        badgeText = "Exclusive"
    }
    
